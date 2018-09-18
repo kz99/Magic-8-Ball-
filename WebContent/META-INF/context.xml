@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Resource name="jdbc/videoservice" auth="Container" type="javax.sql.DataSource"
+		maxActive="50" maxIdle="30" maxWait="10000" username="root" password="Pr1nc3t0n"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://cloud-mysql:3306/authentication" />
+	<ResourceLink global="jdbc/videoservice" name="jdbc/videoservice"
+		type="javax.sql.DataSource" />
+</Context>
